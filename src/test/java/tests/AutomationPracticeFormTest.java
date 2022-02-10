@@ -27,7 +27,7 @@ public class AutomationPracticeFormTest {
 
         $("#firstName").setValue("Alex");
         $("#lastName").setValue("Frost");
-        $("#userEmail").setValue("alex@guru.com");
+        $("#userEmail").setValue("alex@work.com");
         $(byText("Male")).click();
         $("#userNumber").setValue("1111111111");
         $("#dateOfBirthInput").click();
@@ -50,7 +50,7 @@ public class AutomationPracticeFormTest {
 
         $(".table-responsive").shouldHave(text("Alex"),
                                                    text("Frost"),
-                                                   text("alex@guru.com"),
+                                                   text("alex@work.com"),
                                                    text("Male"),
                                                    text("1111111111"),
                                                    text("8 May,1991"),
