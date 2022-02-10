@@ -48,15 +48,16 @@ public class AutomationPracticeFormTest {
         $("#submit").click();
 
 
-        $(".table-responsive").shouldHave(text("Alex"),text("Frost"),text("alex@guru.com"),text("Male"),
-                                                  text("1111111111"), text("8 May,1991"),text("Civics"),
-                                                   text("Sports, Music"), text("Lenina street 22"),
+        $(".table-responsive").shouldHave(text("Alex"),
+                                                   text("Frost"),
+                                                   text("alex@guru.com"),
+                                                   text("Male"),
+                                                   text("1111111111"),
+                                                   text("8 May,1991"),
+                                                   text("Civics"),
+                                                   text("Sports, Music"),
+                                                   text("Lenina street 22"),
                                                    text("Haryana Karnal"));
-
-
-
-
-
 
 
     }
