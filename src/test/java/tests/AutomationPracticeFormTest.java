@@ -38,7 +38,7 @@ public class AutomationPracticeFormTest {
         $(byText("Civics")).click();
         $(byText("Sports")).click();
         $(byText("Music")).click();
-        $("#uploadPicture").uploadFile(new File("src/test/java/data/raja.jpg"));
+        $("#uploadPicture").uploadFromClasspath("raja.jpg");
         $("#currentAddress").setValue("Lenina street 22");
         $("#stateCity-label").scrollTo();
         $(byText("Select State")).click();
